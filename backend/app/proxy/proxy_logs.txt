@@ -1,0 +1,13 @@
+2024-03-20 02:56:42,940 - server listening on 127.0.0.1:8765
+2024-03-20 02:57:02,217 - connection open
+2024-03-20 02:57:02,226 - Proxy connected to server and client
+2024-03-20 02:57:02,226 - Received from client: {"type": "send", "message": "vrpMT/u5eXhMza6E7VXWwxhKAQLXKfK3aU2UAkvVrG4="}
+2024-03-20 02:57:02,230 - Received from server: {"response": "Message saved", "data": {"id": 22, "message": "vrpMT/u5eXhMza6E7VXWwxhKAQLXKfK3aU2UAkvVrG4=", "created_at": "2024-03-20T02:57:02.227597+00:00"}}
+2024-03-20 02:57:02,235 - Decrypted message: Hello WebSocket!
+2024-03-20 02:57:02,236 - Received from client: {"type": "send", "message": "tcokpV+2EsDJmG4Pq2RK9w=="}
+2024-03-20 02:57:02,239 - Received from server: {"response": "Message saved", "data": {"id": 23, "message": "tcokpV+2EsDJmG4Pq2RK9w==", "created_at": "2024-03-20T02:57:02.237522+00:00"}}
+2024-03-20 02:57:02,240 - Decrypted message: Second Message
+2024-03-20 02:57:02,241 - Received from client: {"type": "get_all"}
+2024-03-20 02:57:02,244 - Received from server: {"response": "All messages", "messages": [{"message": "tcokpV+2EsDJmG4Pq2RK9w==", "created_at": "2024-03-20T02:57:02.237522+00:00"}, {"message": "vrpMT/u5eXhMza6E7VXWwxhKAQLXKfK3aU2UAkvVrG4=", "created_at": "2024-03-20T02:57:02.227597+00:00"}]}
+2024-03-20 02:57:02,246 - Connection closed: received 1000 (OK); then sent 1000 (OK)
+2024-03-20 02:57:02,248 - connection closed

@@ -1,0 +1,15 @@
+fastapi[all]
+websockets
+psycopg[binary]
+psycopg[pool]
+httpx
+pydantic-settings
+python-jose[cryptography]  # Для работы с JWT и шифрованием
+passlib[bcrypt]  # Добавляем passlib с поддержкой bcrypt для безопасной работы с паролями
+uvicorn
+pytest
+pytest-asyncio
+pytest-mock
+faker
+itsdangerous
+pycryptodome
